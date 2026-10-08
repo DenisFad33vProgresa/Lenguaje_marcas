@@ -1,0 +1,9 @@
+{
+    "nombre": "Denis",
+    "edad": 19,
+    "direccion": {
+        "calle": "Calle Gabarra",
+        "ciudad": "Madrid",
+        "codigoPostal": "46009"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "nombre": "Tienda de Videojuegos",
+    "direccion": "Calle Gavarra, 123, Valencia",
+    "productos": [
+        {
+            "nombre": "Kindom Come: Deliverance II",
+            "precio": 79.99,
+            "disponible": 10
+        },
+        {
+            "nombre": "Juego The Elden Ring",
+            "precio": 59.99,
+            "disponible": 25
+        },
+        {
+            "nombre": "The Blood of Dawnwalker",
+            "precio": 69.99,
+            "disponible": 5
+        }
+    ]
+
+
+
+}

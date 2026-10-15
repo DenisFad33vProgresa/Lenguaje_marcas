@@ -1,0 +1,108 @@
+{
+    "tienda":{
+        "nombre":"Tienda de ropa",
+        "abierta":true,
+        "contacto":{
+            "telefono":"123456789",
+            "email":"tienda_16@gmail.com"
+        },
+        "categorias":[
+            {
+                "id":1,
+                "nombre":"Ropa",
+                "productos":[
+                    {
+                        "sku":"R001",
+                        "nombre":"Camiseta de algodón",
+                        "precio":12.99,
+                        "stock":10,
+                        "etiquietas":["algodon", "camiseta"],
+                        "dimensiones":{
+                            "ancho":20,
+                            "alto":30,
+                            "fondo":1
+                        },
+                        "disponible":true
+                    },
+                    {
+                        "sku":"R002",
+                        "nombre":"Pantalón vaquero",
+                        "precio":29.99,
+                        "stock":0,
+                        "etiquetas":["vaquero", "pantalon"],
+                        "dimensiones":{
+                            "ancho":30,
+                            "alto":40,
+                            "fondo":2
+                        },
+                        "disponible":false
+                    }
+                ]
+            },
+            {
+                "id":2,
+                "nombre":"Calzado",
+                "productos":[
+                    {
+                        "sku":"C001",
+                        "nombre":"Zapatillas deportivas",
+                        "precio":49.99,
+                        "stock":15,
+                        "etiquetas":["zapatillas", "deportivas"],
+                        "dimensiones":{
+                            "ancho":25,
+                            "alto":10,
+                            "fondo":30
+                        },
+                        "disponible":true
+                    },
+                    {
+                        "sku":"C002",
+                        "nombre":"Botas de cuero",
+                        "precio":89.99,
+                        "stock":8,
+                        "etiquetas":["botas", "cuero"],
+                        "dimensiones":{
+                            "ancho":30,
+                            "alto":40,
+                            "fondo":15
+                        },
+                        "disponible":true
+                    }
+                ]
+            },
+            {
+                "id":3,
+                "nombre":"Accesorios",
+                "productos":[
+                    {
+                        "sku":"A001",
+                        "nombre":"Gorra de béisbol",
+                        "precio":14.99,
+                        "stock":20,
+                        "etiquetas":["gorra", "beisbol"],
+                        "dimensiones":{
+                            "ancho":15,
+                            "alto":10,
+                            "fondo":5
+                        },
+                        "disponible":true
+                    },
+                    {
+                        "sku":"A002",
+                        "nombre":"Bufanda de lana",
+                        "precio":19.99,
+                        "stock":0,
+                        "etiquetas":["bufanda", "lana"],
+                        "dimensiones":{
+                            "ancho":20,
+                            "alto":150,
+                            "fondo":1
+                        },
+                        "disponible":false
+                    }
+                ]
+            }
+        ]
+    }
+}

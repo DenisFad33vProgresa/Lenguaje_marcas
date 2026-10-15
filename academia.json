@@ -1,0 +1,133 @@
+{
+    "academia": {
+        "nombre":"Academia de Programación",
+        "fundacion": 2010,
+        "sede":{
+            "ciudad": "Madrid",
+            "pais": "España",
+            "coordenadas": {
+                "lat": 40.4168,
+                "lng": -3.7038
+            }
+        },
+        "cursos":[
+            {
+                "codigo": "CURSO_PYTHON",
+                "titulo": "Curso de Python",
+                "profesor":{
+                    "nombre": "Iván",
+                    "especialidades": ["Python", "Desarrollo web"],
+                    "contacto": {
+                        "email": "ivan.profesor@academia.com",
+                        "telefono": "+34 123 456 789"
+                    }
+                },
+                "horario":[
+                    {
+                        "dia": "Lunes",
+                        "inicio": "18:00",
+                        "fin": "20:00"
+                    }
+                ],
+                "alumnos":[
+                    {
+                        "nombre": "Ana",
+                        "activo": true,
+                        "notas": [8.5, 9.0, 7.5],
+                        "notaFinal": 8.33
+                    },
+                    {
+                        "nombre": "Bruno",
+                        "activo": true,
+                        "notas": [10.0, 9.0, 10.0],
+                        "notaFinal": 9.67
+                    },
+                    {
+                        "nombre": "Camila",
+                        "activo": false,
+                        "notas": [8.5, 9.0, 7.5],
+                        "notaFinal": null
+                    }
+                ]
+            },
+            {
+                "codigo": "CURSO_JAVASCRIPT",
+                "titulo": "Curso de JavaScript",
+                "profesor":{
+                    "nombre": "David Juan",
+                    "especialidades": ["JavaScript", "Node.js"],
+                    "contacto": {
+                        "email": "david.juan.profesor@academia.com",
+                        "telefono": "+34 123 456 789"
+                    }
+                },
+                "horario":[
+                    {
+                        "dia": "Martes",
+                        "inicio": "18:00",
+                        "fin": "20:00"
+                    }
+                ],
+                "alumnos":[
+                    {
+                        "nombre": "David",
+                        "activo": true,
+                        "notas": [6.9, 6.8, 7.9],
+                        "notaFinal": 7.2
+                    },
+                    {
+                        "nombre": "Elena",
+                        "activo": true,
+                        "notas": [8.5, 9.0, 7.5],
+                        "notaFinal": 8.33
+                    },
+                    {
+                        "nombre": "Javier",
+                        "activo": false,
+                        "notas": [10.0, 10.0, 8.5],
+                        "notaFinal": null
+                    }
+                ]
+            },
+            {
+                "codigo": "CURSO_C#",
+                "titulo": "Curso de C#",
+                "profesor":{
+                    "nombre": "Iván",
+                    "especialidades": ["C#", "Desarrollo web"],
+                    "contacto": {
+                        "email": "ivan.profesor@academia.com",
+                        "telefono": "+34 123 456 789"
+                    }
+                },
+                "horario":[
+                    {
+                        "dia": "Miércoles",
+                        "inicio": "18:00",
+                        "fin": "20:00"
+                    }
+                ],
+                "alumnos":[
+                    {
+                        "nombre": "Luis",
+                        "activo": true,
+                        "notas": [8.5, 9.0, 7.5],
+                        "notaFinal": 8.33
+                    },
+                    {
+                        "nombre": "Denis",
+                        "activo": true,
+                        "notas": [10.0, 10.0, 9.7],
+                        "notaFinal": 9.9
+                    },
+                    {
+                        "nombre": "Pedro",
+                        "activo": false,
+                        "notas": [6.9, 6.8, 7.9],
+                        "notaFinal": null
+                    }
+                ]
+            }
+        ]
+    }
+}

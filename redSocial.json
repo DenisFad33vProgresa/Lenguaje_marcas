@@ -1,0 +1,127 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "usuario": "Deonis Fad",
+            "perfil":{
+                "bio":"YouTuer, Editor, Gamer, Programador, creador de juegos",
+                "ubicacion":"Valencia, España",
+                "verificado":true
+            },
+            "siguiendo":[]
+        },
+        {
+            "id": 2,
+            "usuario": "Ana",
+            "perfil":{
+                "bio":"Amante de los videojuegos y la tecnología",
+                "ubicacion":"Barcelona, España",
+                "verificado":false
+            },
+            "siguiendo":[1]
+        },
+        {
+            "id": 3,
+            "usuario": "Carlos",
+            "perfil":{
+                "bio":"Desarrollador de software y entusiasta de la programación",
+                "ubicacion":"Madrid, España",
+                "verificado":true
+            },
+            "siguiendo":[1,2]
+        }
+    ],
+    "publicaciones": [
+        {
+            "id": 1,
+            "autorId": 1,
+            "texto": "¡Hola a todos! Suscribite!",
+            "fecha": "2026-10-09T14:00:00",
+            "reacciones":{
+                "meGusta":9383,
+                "risa":1298,
+                "sorpresa":1029
+            },
+            "hastags":["#gaming", "#videojuegos", "#programación"]
+        
+        },
+        {
+            "id": 2,
+            "autorId": 1,
+            "texto": "¡Acabo de terminar Elden Ring y es increíble!",
+            "fecha": "2026-10-10T16:30:00",
+            "reacciones":{
+                "meGusta":1200,
+                "risa":300,
+                "sorpresa":150
+            },
+            "hastags":["#EldenRing", "#RPG", "#videojuegos"]
+        },
+        {
+            "id": 3,
+            "autorId": 3,
+            "texto": "Estoy trabajando en un nuevo proyecto de programación, ¡pronto habrá novedades!",
+            "fecha": "2026-10-11T09:15:00",
+            "reacciones":{
+                "meGusta":800,
+                "risa":100,
+                "sorpresa":50
+            },
+            "hastags":["#programación", "#desarrollo", "#proyecto"]
+        },
+        {
+            "id": 4,
+            "autorId": 2,
+            "texto": "¡Acabo de conseguir un nuevo logro en mi juego favorito!",
+            "fecha": "2026-10-12T18:45:00",
+            "reacciones":{
+                "meGusta":500,
+                "risa":200,
+                "sorpresa":100
+            },
+            "hastags":[]
+        }
+       
+    ],
+    "comentarios": [
+        {
+            "id": 1,
+            "publicacionId": 1,
+            "autorId": 2,
+            "texto": "¡Genial! Me encanta tu contenido.",
+            "editado": false
+        },
+        {
+            "id": 2,
+            "publicacionId": 2,
+            "autorId": 3,
+            "texto": "¡Felicidades por terminar Elden Ring! Es un juego increíble.",
+            "fecha": "2026-10-10T17:00:00",
+            "editado": false
+        },
+        {
+            "id": 3,
+            "publicacionId": 3,
+            "autorId": 1,
+            "texto": "¡Estoy ansioso por ver tu nuevo proyecto!",
+            "fecha": "2026-10-11T09:45:00",
+            "editado": true
+        },
+        {
+            "id": 4,
+            "publicacionId": 4,
+            "autorId": 3,
+            "texto": "¡Felicidades por tu logro! Sigue así.",
+            "fecha": "2026-10-12T19:15:00",
+            "editado": true
+        },
+        {
+            "id": 5,
+            "publicacionId": 1,
+            "autorId": 1,
+            "texto": "El video es tonto, no hay algo útil, cada bacteria sabe sobre esos lifhucks... dislike",
+            "fecha": "2026-10-13T10:00:00",
+            "editado": true
+        }
+    ]
+}

@@ -7,10 +7,10 @@
             "multijugador": true
         },
         {
-            "titulo": "The Witcher 3",
+            "titulo": "War Thunder",
             "Genero": "RPG de acción",
-            "precio": 39.99,
-            "multijugador": false
+            "precio": 0.00,
+            "multijugador": true
         },
         {
             "titulo": "Cyberpunk 2077",

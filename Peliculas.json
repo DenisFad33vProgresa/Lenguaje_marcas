@@ -1,0 +1,19 @@
+{
+    "peliculas": [
+        {
+            "titulo": "Office Romance",
+            "director": "Eldar Ryazanov",
+            "año": 1977
+        },
+        {
+            "titulo": "The Matrix",
+            "director": "Lana Wachowski, Lilly Wachowski",
+            "año": 1999
+        },
+        {
+            "titulo": "Interstellar",
+            "director": "Christopher Nolan",
+            "año": 2014
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "pedidos":[
+        {
+            "numero": 1,
+            "cliente": {
+                "nombre": "Denis Fadeev",
+                "email":"denis.fadeec.progresa@digitechfp.com",
+                "direccion":{
+                    "calle": "Calle Gabarra",
+                    "ciudad": "Madrid",
+                    "codigoPostal": "46009"
+                }
+            },
+            "productos": "Kingdom Come: Deliverance II",
+            "cantidad": 1,
+            "entregado": true
+        },
+        {
+            "numero": 2,
+            "cliente": {
+                "nombre": "Ana",
+                "email":"ana@example.com",
+                "direccion":{
+                    "calle": "Avenida Principal",
+                    "ciudad": "Barcelona",
+                    "codigoPostal": "08001"
+                }
+            },
+            "productos": "Elden Ring",
+            "cantidad": 1,
+            "entregado": false
+        },
+        {
+            "numero": 3,
+            "cliente": {
+                "nombre": "Carlos",
+                "email":"carlos@example.com",
+                "direccion":{
+                    "calle": "Calle Seca",
+                    "ciudad": "Valencia",
+                    "codigoPostal": "46009"
+                }
+            },
+            "productos": "The Witcher 3: Wild Hunt",
+            "cantidad": 1,
+            "entregado": false
+        }
+    ]
+}

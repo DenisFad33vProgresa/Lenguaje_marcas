@@ -1,0 +1,28 @@
+{
+    "productos": [
+        {
+            "nombre": "Altavozes Bluetooth",
+            "precio": 10.99,
+            "categoria": "Electrónica",
+            "disponible": true
+        },
+        {
+            "nombre": "Silla de Oficina",
+            "precio": 15.50,
+            "categoria": "Hogar",
+            "disponible": false
+        },
+        {
+            "nombre": "Pelota de Fútbol",
+            "precio": 7.25,
+            "categoria": "Juguetes",
+            "disponible": true
+        },
+        {
+            "nombre": "Camiseta de Algodón",
+            "precio": 12.00,
+            "categoria": "Ropa",
+            "disponible": true
+        }
+    ]
+}

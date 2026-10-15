@@ -1,0 +1,28 @@
+{
+    "videojuegos": [
+        {
+            "titulo": "Elden Ring",
+            "Genero": "RPG de acción",
+            "precio": 59.99,
+            "multijugador": true
+        },
+        {
+            "titulo": "The Witcher 3",
+            "Genero": "RPG de acción",
+            "precio": 39.99,
+            "multijugador": false
+        },
+        {
+            "titulo": "Cyberpunk 2077",
+            "Genero": "RPG de acción",
+            "precio": 49.99,
+            "multijugador": true
+        },
+        {
+            "titulo": "Kingdom Come: Deliverance II",
+            "Genero": "RPG de acción",
+            "precio": 79.99,
+            "multijugador": false
+        }
+    ]
+}

@@ -1,6 +1,11 @@
 {
     "nombre": "Tienda de Videojuegos",
-    "direccion": "Calle Gavarra, 123, Valencia",
+    "direccion": [
+        {
+            "Calle": "Gavarra",
+            "Ciudad": "Valencia"
+        }
+    ],
     "productos": [
         {
             "nombre": "Kindom Come: Deliverance II",

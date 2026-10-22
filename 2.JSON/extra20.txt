@@ -1,0 +1,8 @@
+1:
+data:[2], temporada:[0], titulo:["catástrofe"]
+
+2:
+data:[0], temporada:[0], nombre:["Pedro Pascal"]
+
+3:
+data:[1], disponibleEn:["MX":true]

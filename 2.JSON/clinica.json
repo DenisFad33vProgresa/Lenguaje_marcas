@@ -1,0 +1,167 @@
+{
+    "nombre": "clinica",
+    "direccion": {
+        "calle": "Calle de la Salud",
+        "ciudad": "Madrid",
+        "codigoPostal": "28001"
+    },
+    "configuracion": {
+        "horarioApertura": "08:00",
+        "horarioCierre": "20:00",
+        "duracionCitaMinutos": 30
+    },
+    "medicos":[
+        {
+        "id": 1,
+            "nombre": "Dr. Juan Pérez",
+            "especialidad": "Cardiología",
+            "consultas": ["Lunes", "Miércoles", "Viernes"]
+        },
+        {
+        "id": 2,
+            "nombre": "Dr. María García",
+            "especialidad": "Neurología",
+            "consultas": ["Martes", "Jueves"]
+        },
+        {
+        "id": 3,
+            "nombre": "Dr. Denis Fadeev",
+            "especialidad": "dantista",
+            "consultas": ["Miércoles", "Viernes"]
+        }
+    ],
+    "pacientes":[
+        {
+            "id": 1,
+            "nombre": "Juan García",
+            "fechaNacimiento": "1985-03-15",
+            "seguro": {
+                "compañia": "Seguros Salud",
+                "numeroPoliza": "SS123456789"
+            },
+            "alergias": ["Penicilina", "Polen"],
+            "historial": [
+                {
+                    "fecha": "2023-01-10",
+                    "diagnostico": "Hipertensión",
+                    "tratamiento": {
+                        "medicamento": "Medicamento A",
+                        "dosis": "10mg",
+                        "duracionDias": 30
+                    }
+                },
+                {
+                    "fecha": "2024-05-22",
+                    "diagnostico": "Migraña",
+                    "tratamiento": {
+                        "medicamento": "Medicamento B",
+                        "dosis": "5mg",
+                        "duracionDias": 10
+                    }
+                },
+                {
+                    "fecha": "2025-08-15",
+                    "diagnostico": "Fractura de brazo",
+                    "tratamiento": {
+                        "medicamento": "Inmovilización con yeso",
+                        "dosis": null,
+                        "duracionDias": 45
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "nombre": "María López",
+            "fechaNacimiento": "1990-07-22",
+            "seguro": {
+                "compañia": "Seguros Vida",
+                "numeroPoliza": "SV987654321"
+            },
+            "alergias": ["Aspirina"],
+            "historial": [
+                {
+                    "fecha": "2024-02-18",
+                    "diagnostico": "Asma",
+                    "tratamiento": {
+                        "medicamento": "Inhalador C",
+                        "dosis": "2 inhalaciones",
+                        "duracionDias": 60
+                    }
+                },
+                {
+                    "fecha": "2025-11-05",
+                    "diagnostico": "Alergia estacional",
+                    "tratamiento": {
+                        "medicamento": "Antihistamínico D",
+                        "dosis": "10mg",
+                        "duracionDias": 15
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nombre": "Denis Fadeev",
+            "fechaNacimiento": "1995-12-05",
+            "seguro": {
+                "compañia": "Seguros Salud",
+                "numeroPoliza": "SS112233445"
+            },
+            "alergias": [],
+            "historial": [
+                {
+                    "fecha": "2026-03-12",
+                    "diagnostico": "Dolor de muelas",
+                    "tratamiento": {
+                        "medicamento": "Analgésico E",
+                        "dosis": "500mg",
+                        "duracionDias": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "citas":[
+        {
+            "id": 1,
+            "pacienteId": 1,
+            "medicoId": 1,
+            "fecha": "2026-10-15T10:00:00",
+            "confirmada": true,
+            "notas": "Cita de control"
+        },
+        {
+            "id": 2,
+            "pacienteId": 2,
+            "medicoId": 2,
+            "fecha": "2026-10-16T14:30:00",
+            "confirmada": false,
+            "notas": "Primera consulta"
+        },
+        {
+            "id": 3,
+            "pacienteId": 3,
+            "medicoId": 3,
+            "fecha": "2026-10-17T09:00:00",
+            "confirmada": true,
+            "notas": "Revisión dental"
+        },
+        {
+            "id": 4,
+            "pacienteId": 1,
+            "medicoId": 2,
+            "fecha": "2026-10-18T11:30:00",
+            "confirmada": true,
+            "notas": "Consulta de seguimiento"
+        },
+        {
+            "id": 5,
+            "pacienteId": 2,
+            "medicoId": 1,
+            "fecha": "2026-10-19T15:00:00",
+            "confirmada": false,
+            "notas": "Cita de revisión"
+        }
+    ]
+}

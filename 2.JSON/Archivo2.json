@@ -1,0 +1,17 @@
+{
+    "objeto":404,
+    "ok":false,
+    "data":null,
+    "errores":[
+        {
+            "codigo":"404",
+            "mensaje":"El recurso solicitado no se encuentra disponible.",
+            "campo":"recurso"
+        },
+        {
+            "codigo":"404",
+            "mensaje":"El parámetro proporcionado no es válido.",
+            "campo":"parametro"
+        }
+    ]
+}

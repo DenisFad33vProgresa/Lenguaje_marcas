@@ -1,0 +1,208 @@
+{
+    "status": 200,
+    "ok": true,
+    "meta": {
+        "pagina": 1,
+        "porPagina": 10,
+        "totalResultados": 3,
+        "enlaces": {
+            "siguiente": "/api/tienda_16.json?page=2",
+            "anterior": null
+        },
+        "generadoEn": "2026-10-15T12:00:00"
+    },
+    "data": [
+        {
+            "id": 1,
+            "titulo": "The Last of Us",
+            "genero": "Acción/Aventura",
+            "estreno": "2023-01-15",
+            "valoracion": {
+                "media": 9.5,
+                "votos": 1200
+            },
+            "reparto": [
+                {
+                    "actor": "Pedro Pascal",
+                    "personaje": "Joel",
+                    "principal": true
+                },
+                {
+                    "actor": "Bella Ramsey",
+                    "personaje": "Ellie",
+                    "principal": true
+                }
+            ],
+            "temporadas": [
+                {
+                    "numero": 1,
+                    "episodios": [
+                        {
+                            "titulo": "Cuando Estás Perdido en la Oscuridad",
+                            "duracionMinutos": 60
+                        },
+                        {
+                            "titulo": "Infectados",
+                            "duracionMinutos": 55
+                        }
+                    ]
+                }
+            ],
+            "disponibleEn": {
+                "codigoPais": {
+                    "ES": true,
+                    "MX": true,
+                    "US": true
+                }
+            },
+            "trailer": {
+                "url": "https://www.youtube.com/watch?v=trailer_last_of_us",
+                "duracionSegundos": 120
+            }
+        },
+        {
+            "id": 2,
+            "titulo": "Stranger Things",
+            "genero": "Ciencia Ficción/Terror",
+            "estreno": "2016-07-15",
+            "valoracion": {
+                "media": 8.9,
+                "votos": 2500
+            },
+            "reparto": [
+                {
+                    "actor": "Millie Bobby Brown",
+                    "personaje": "Eleven",
+                    "principal": true
+                },
+                {
+                    "actor": "Finn Wolfhard",
+                    "personaje": "Mike Wheeler",
+                    "principal": true
+                }
+            ],
+            "temporadas": [
+                {
+                    "numero": 1,
+                    "episodios": [
+                        {
+                            "titulo": "El Desaparecido de Hawkins",
+                            "duracionMinutos": 50
+                        },
+                        {
+                            "titulo": "La Señal",
+                            "duracionMinutos": 55
+                        }
+                    ]
+                }
+            ],
+            "disponibleEn": {
+                "codigoPais": {
+                    "ES": true,
+                    "MX": true,
+                    "US": true
+                }
+            },
+            "trailer": {
+                "url": "https://www.youtube.com/watch?v=trailer_stranger_things",
+                "duracionSegundos": 150
+            }
+        },
+        {
+            "id": 3,
+            "titulo": "Breaking Bad",
+            "genero": "Drama/Crimen",
+            "estreno": "2008-01-20",
+            "valoracion": {
+                "media": 9.7,
+                "votos": 3000
+            },
+            "reparto": [
+                {
+                    "actor": "Bryan Cranston",
+                    "personaje": "Walter White",
+                    "principal": true
+                },
+                {
+                    "actor": "Aaron Paul",
+                    "personaje": "Jesse Pinkman",
+                    "principal": true
+                }
+            ],
+            "temporadas": [
+                {
+                    "numero": 1,
+                    "episodios": [
+                        {
+                            "titulo": "Piloto",
+                            "duracionMinutos": 58
+                        },
+                        {
+                            "titulo": "Catástrofe",
+                            "duracionMinutos": 48
+                        }
+                    ]
+                }
+            ],
+            "disponibleEn": {
+                "codigoPais": {
+                    "ES": true,
+                    "MX": true,
+                    "US": true
+                }
+            },
+            "trailer": {
+                "url": "https://www.youtube.com/watch?v=trailer_breaking_bad",
+                "duracionSegundos": 130
+            }
+        },
+        {
+            "id": 4,
+            "titulo": "The Witcher",
+            "genero": "Fantasía/Acción",
+            "estreno": "2019-12-20",
+            "valoracion": {
+                "media": 8.2,
+                "votos": 1800
+            },
+            "reparto": [
+                {
+                    "actor": "Henry Cavill",
+                    "personaje": "Geralt de Rivia",
+                    "principal": true
+                },
+                {
+                    "actor": "Anya Chalotra",
+                    "personaje": "Yennefer de Vengerberg",
+                    "principal": true
+                }
+            ],
+            "temporadas": [
+                {
+                    "numero": 1,
+                    "episodios": [
+                        {
+                            "titulo": "El Fin del Mundo",
+                            "duracionMinutos": 60
+                        },
+                        {
+                            "titulo": "El Último Deseo",
+                            "duracionMinutos": 55
+                        }
+                    ]
+                }
+            ],
+            "disponibleEn": {
+                "codigoPais": {
+                    "ES": true,
+                    "MX": true,
+                    "US": true
+                }
+            },
+            "trailer": {
+                "url": "https://www.youtube.com/watch?v=trailer_the_witcher",
+                "duracionSegundos": 140
+            }
+        }
+    ]
+}
